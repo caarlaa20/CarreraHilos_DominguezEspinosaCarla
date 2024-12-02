@@ -136,7 +136,9 @@ public class Juego extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    //Aqui inicializamos los hilos 
     private void iniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_iniciarActionPerformed
+      
         iniciar.setEnabled(false);
         coche1.setLocation(0,coche1.getLocation().y);
         coche2.setLocation(0,coche2.getLocation().y);
